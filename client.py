@@ -11,7 +11,7 @@ def _main():
     print('Соединение с сервером')
 
     while True:
-        message = input()
+        message = input('Введите сообщение:')
         if message == EXIT:
             break
         print(f'Отправка "{message}" серверу')
